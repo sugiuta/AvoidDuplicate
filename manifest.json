@@ -1,0 +1,33 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "同じアイテムを持つの禁止アドオンです。このアドオンを使用する際は§c§lベータAPIをオン§rにしてください。",
+        "name": "§c§lアイテム重複禁止§fアドオン",
+        "uuid": "5459667c-ee4b-4d48-850f-b6af28021e3a",
+        "version": [ 0, 0, 1 ],
+        "min_engine_version": [ 1, 19, 50 ]
+    },
+    "modules": [
+        {
+            "description": "NO DESCRIPTION",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "3fea8f80-13bc-4d98-9446-e57d30c56c31",
+            "version": [ 0, 0, 1 ],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.1.0-beta"
+      }
+    ],
+    "metadata": {
+        "authors": [
+          "Sugiuta - Twitter: @FeAr_sugi"
+        ],
+        "license": "MIT",
+        "url": "https://github.com/sugiuta/AvoidDuplicate"
+    }
+  }
